@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>justify-content</title>
+	<link rel="stylesheet" href="style2.css">
+	<style>
+		#container {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.box {
+			width: 30%;
+		}
+		h3 {
+			text-align: center;
+		}
+		.big {
+			width: 100%;
+			background: orange;
+			border: 2px solid yellow;
+			display: flex; 
+		}
+		.small {
+			width: 15%;
+			height: 50px;
+			background: orangered;
+			border: 1px darkorange;
+		}
+		#big1 {justify-content: flex-start;}
+		#big2 {justify-content: flex-end;}
+		#big3 {justify-content: space-evenly;}
+		#big4 {justify-content: center;}
+		#big5 {justify-content: space-between;}
+		#big6 {justify-content: space-around;}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="units.html"><img id="left"src="https://nachalo4ka.ru/wp-content/uploads/2014/08/strelka-derevyannaya.png" at="левая стрелка"></a>
+		<h1>justify-content</h1>
+		<a href="display.html"><img id="right"src="https://nachalo4ka.ru/wp-content/uploads/2014/08/strelka-derevyannaya.png" alt="правая стрелка"></a>
+	</header>
+	<main>
+		<div id="container" style="width: 100%">
+			<div class="box">
+				<h3>flex-start</h3>
+				<div class="big" id="big1">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h3>flex-end</h3>
+				<div class="big" id="big2">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h3>space-evehly</h3>
+				<div class="big" id="big3">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h3>center</h3>
+				<div class="big" id="big4">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h3>space-beetwen</h3>
+				<div class="big" id="big5">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h3>space-around</h3>
+				<div class="big" id="big6">
+					<div class="small"></div>
+					<div class="small"></div>
+					<div class="small"></div>
+				</div>
+			</div>
+		</div>	
+	</main>
+</body>

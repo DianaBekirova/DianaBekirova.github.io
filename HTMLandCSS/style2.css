@@ -1,0 +1,43 @@
+td {
+	border: 1px solid bisque;
+	background: black;
+	text-align: center;
+}
+th {
+	border: 1px solid wheat;
+	background: tan;
+	color: lemonchiffon;
+}
+header {
+	width: 50%;
+	background: burlywood;
+	height: 50%;
+	margin: auto;
+    /*текст по центру*/
+    text-align: center;
+    /*способ отображения элемента внутри этого тега*/
+    display: flex;
+    /*распределение элемента внутри*/
+    justify-content: space-around;
+    /*выравнивание элементов по вертикали*/
+    align-items: middle;
+}
+body {
+	background: antiquewhite;
+	margin: 0;
+}
+
+#left {
+    /*поворот стрелки*/
+    transform: rotate(180deg);
+    width: 64px;
+}
+
+#right {
+	width: 64px;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+}
